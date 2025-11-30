@@ -9,15 +9,17 @@ public class inc
 {
    public static void main (String[] args){
        
-       int a = 5;
-       int y = a++;
-       int z= a++;
+       int a = 10;
+       int y = ++a;
+       //int z= a++;
        
-       System.out.println(a);
+      
        System.out.println(y);
-       System.out.println(z);
+        System.out.println(a);
+      // System.out.println(z);
        
-    
+       
+  
     
     
     
