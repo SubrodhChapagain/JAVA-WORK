@@ -1,10 +1,15 @@
 
-/**
- * Write a description of class week5tutorial here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
 public class week5tutorial
 {
+    public static void main (String[] args)
+    {
+         int sum =0;
+        for(int i =1 ;i<=10; i++)
+        {
+          sum = sum+i;
+          System.out.println(sum);
+        }
+        System.out.println("total sum is"+ sum);
+    
+    }
 }
