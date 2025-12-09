@@ -7,7 +7,7 @@ public class work
      {
         for(int j=1;j<=i;j++) //COLUMNS
         {
-         System.out.print("*");
+        System.out.print("*");
        
     }
         System.out.println();
