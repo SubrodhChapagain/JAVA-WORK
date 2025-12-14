@@ -15,9 +15,12 @@ public class week6qn7
          
         for (int row = 0; row < seats.length; row++) {
             for (int col = 0; col < seats[row].length; col++) {
-                if (seats[row][col] == null || seats[row][col].isEmpty()) {
+                if (seats[row][col] == null || seats[row][col].isEmpty()) 
+                {
                     System.out.print("[empty]\t");
-                } else {
+                } 
+                else 
+                {
                     System.out.print(seats[row][col] + "\t");
                 }
             }
